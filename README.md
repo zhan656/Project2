@@ -9,4 +9,4 @@
 - - -
 
 ## Project Introduction: 
-<img alt='Newspaper Printing (via GIPHY)' src="http://www.standardmarket.com/wp-content/uploads/2015/08/wine-bottles.jpg" style="width:300px; height: 600px"/>
+<img alt='Newspaper Printing (via GIPHY)' src="http://www.standardmarket.com/wp-content/uploads/2015/08/wine-bottles.jpg" style="width:200px; height: 300px"/>
