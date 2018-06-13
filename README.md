@@ -9,7 +9,7 @@
 - - -
 
 ## Project Introduction: 
-<img src="http://www.standardmarket.com/wp-content/uploads/2015/08/wine-bottles.jpg" alt="Newspaper Printing (via GIPHY)"  style="width:100px; height: 150px"/>
+<img src="http://www.standardmarket.com/wp-content/uploads/2015/08/wine-bottles.jpg" alt="Newspaper Printing (via GIPHY)"  style="width:100px;height:150px;"/>
 
 # Project Proposal
 	We are running a visual analysis on one of the oldest and most enjoyed beverages in the world- WINE! With this project we will:
