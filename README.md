@@ -34,7 +34,9 @@ https://www.kaggle.com/zynicide/wine-reviews/data
 
 ## Project Timeline
 -6/9- Project Introduction and brainstorming ideas
+
 -6/12-Project proposal and distribution of responsibilities, clean up data
+
 -6/14- Begin coding- Have HTML framework set up, upload DB to MySQL
 
 -6/16- Coding, Coding, Coding
