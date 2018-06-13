@@ -9,10 +9,11 @@
 - - -
 
 ## Project Introduction: 
-<img alt='Newspaper Printing (via GIPHY)' src="http://www.standardmarket.com/wp-content/uploads/2015/08/wine-bottles.jpg" style="width:200px; height: 300px"/>
+<img alt='Newspaper Printing (via GIPHY)' src="http://www.standardmarket.com/wp-content/uploads/2015/08/wine-bottles.jpg" style="width:100px; height: 150px"/>
 
 # Project Proposal
-We are running a visual analysis on one of the oldest and most enjoyed beverages in the world- WINE! With this project we will:
+	We are running a visual analysis on one of the oldest and most enjoyed beverages in the world- WINE! With this project we will:
+
 	-Do a wine brand comparison
 	-Find out where the most wines are produced
 	-See where your favorite type of wine is made
