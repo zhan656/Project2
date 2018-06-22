@@ -1,0 +1,6 @@
+.jumbotron {
+    text-align: center;
+    background-color: rgb(142, 124, 155);
+    opacity: 0.7;
+    min-height: 75px;
+}

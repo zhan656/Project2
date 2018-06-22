@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>D3 Project</title>
+	<link rel="stylesheet" href="assets/css/d3Style.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+	<!-- Add your js assets here (except your app.js file, which should be at the bottom of the body). -->
+</head>
+<body>
+	<div class="chart"></div>
+	/* <script type="text/javascript" src="assets/js/app.js"></script> */
+    <script src="/lib/d3.v4.3.0.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
+    <script type="text/javascript">
+        var svg = dimple.newSvg("#chartContainer", 590, 400);
+        d3.tsv("../Data/codebeautify.tsv", function (data) {
+        var myChart = new dimple.chart(svg, data);
+        myChart.setBounds(65, 50, 505, 330)
+        myChart.addCategoryAxis("x", ["country", "price"]);
+        myChart.addMeasureAxis("y", "points");
+        myChart.addMeasureAxis("p", "points");
+        var pies = myChart.addSeries("Owner", dimple.plot.pie);
+        pies.radius = 20;
+        myChart.addLegend(170, 10, 410, 20, "right");
+        myChart.draw();
+        });
+  </script>
+</body>
+</html>
