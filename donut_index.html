@@ -21,7 +21,7 @@
         .variable('avg_income')
         .category('country');
 
-    d3.tsv('country_avg.tsv', function(error, data) {
+    d3.tsv('https://raw.githubusercontent.com/brittney-joyce/Visualization_Project2/master/Data/country_avg.tsv', function(error, data) {
         if (error) throw error;
         d3.select('#chart')
             .datum(data) // bind data to the div
