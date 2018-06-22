@@ -30,7 +30,7 @@ function buildCharts(sampleData) {
     // var OtuIDs = otuIDs.map(String)
     // Build Bubble Chart
     var bubbleLayout = {
-        margin: { t: 30 },
+        margin: { t: 35 },
         height: 800,
         width: 1200,
         hovermode: 'closest',
