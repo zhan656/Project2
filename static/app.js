@@ -30,11 +30,12 @@ function buildCharts(sampleData) {
     // var OtuIDs = otuIDs.map(String)
     // Build Bubble Chart
     var bubbleLayout = {
-        margin: { t: 0 },
+        margin: { t: 30 },
         height: 800,
         width: 1200,
         hovermode: 'closest',
-        xaxis: { title: 'Prices' },
+        xaxis: { title: 'Countries' },
+        yaxis: { title: 'Price'},
         title: 'Price vs. Points Based on "Variety"',
         showlegend: false,
         plot_bgcolor: '#d9d9d9',
@@ -63,7 +64,7 @@ function buildCharts(sampleData) {
         type: 'pie'
     }];
     var pieLayout = {
-        margin: { t: 0, l: 0 }
+        margin: { t: 5, l: 2 }
     };
     var PIE = document.getElementById('Pie');
     Plotly.plot(PIE, pieData, pieLayout);
