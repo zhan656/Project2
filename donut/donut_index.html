@@ -5,6 +5,7 @@
     <title>Donut Data</title>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="donut_index.css">
     <script src="donut_index.js"></script>
 </head>
@@ -13,7 +14,7 @@
     <div class = 'container'>
         <div class = "row">
             <div class="col-md-12 jumbotron text-center">
-                <h1>Country Average Income Compare Analysis</h1>
+                <h1>Country Average Income Compare</h1>
                 <h3>Mouse Over Each Piece to Check Detail</h3>
             </div>
         </div>
@@ -28,7 +29,7 @@
     </div>
     <script>
         var donut = donutChart()
-            .width(1500)
+            .width(1000)
             .height(750)
             .cornerRadius(3) // sets how rounded the corners are on each slice
             .padAngle(0.015) // effectively dictates the gap between slices
