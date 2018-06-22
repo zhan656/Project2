@@ -15,19 +15,20 @@
 	We are running a visual analysis on one of the oldest and most enjoyed beverages in the world- WINE!
 	With this project we will:
 
-	-Do a wine brand comparison
-	-Find out where the most wines are produced
-	-See where your favorite type of wine is made
-	-Does climate affect wine production
-	-Are wines priced evenly across the globe
-	-Wine reviews and ratings
+
+	- Find out where the most wines are produced
+    - Use externel data like "Happiness Score", "Avergage Income" and "Population" to test the relationship with wine
+	- See where your favorite type of wine is made
+	- Does climate affect wine production
+	- Are wines priced evenly across the globe
+	- Wine varieties and their origins
 	
 ## Data Source
 https://www.kaggle.com/zynicide/wine-reviews/data
 
 ## Programs Used
 - HTML/ CSS
-- JavaScript (Plotly, Leaflet, etc.)
+- JavaScript (Plotly, Leaflet, Donut Chart etc.)
 - Python
 - SQL/ MySQL
 - Flask
