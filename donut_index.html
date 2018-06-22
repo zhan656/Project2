@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donut Data</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="donut_index.css">
+    <script src="donut_index.js"></script>
+</head>
+<body>
+
+<div id="chart"></div>
+
+<script>
+    var donut = donutChart()
+        .width(1500)
+        .height(750)
+        .cornerRadius(3) // sets how rounded the corners are on each slice
+        .padAngle(0.015) // effectively dictates the gap between slices
+        .variable('avg_income')
+        .category('country');
+
+    d3.tsv('country_avg.tsv', function(error, data) {
+        if (error) throw error;
+        d3.select('#chart')
+            .datum(data) // bind data to the div
+            .call(donut); // draw chart in div
+    });
+
+</script>
+
+</body>
+</html>
