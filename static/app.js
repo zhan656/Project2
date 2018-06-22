@@ -45,7 +45,7 @@ function buildCharts(sampleData) {
         text: points,
         mode: 'markers',
         marker: {
-            size: points.map(function(x){return (Math.exp(x-78))*10}),
+            size: points.map(function(x){return (x-78)*10}),
             color: color_int,
             colorscale: "Earth",
             opacity: 0.4,
@@ -90,7 +90,7 @@ function updateCharts(sampleData) {
     Plotly.restyle(BUBBLE, 'x', [countries]);
     Plotly.restyle(BUBBLE, 'y', [prices]);
     Plotly.restyle(BUBBLE, 'text', [points]);
-    Plotly.restyle(BUBBLE, 'marker.size', [points.map(function(x){return (Math.exp(x-78))*10})]);
+    Plotly.restyle(BUBBLE, 'marker.size', [points.map(function(x){return (x-78)*10})]);
     Plotly.restyle(BUBBLE, 'marker.color', [color_int]);
     // Update the Pie Chart with the new data
     // Use slice to select only the top 10 OTUs for the pie chart
